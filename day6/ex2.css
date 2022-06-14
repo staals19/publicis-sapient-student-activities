@@ -1,0 +1,39 @@
+
+body{
+    padding: 50px;
+}
+
+div{
+    border: solid;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.div1{
+    width: 1000px;
+    height: 100px;
+}
+
+.div2{
+    height: 600px;
+    width: 195px;
+    display: inline-block;
+}
+
+.div3{
+    height: 600px;
+    width: 595px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.div4{
+    height: 600px;
+    width: 195px;
+    display: inline-block;
+}
+
+.div5{
+    width: 1000px;
+    height: 100px;
+}
