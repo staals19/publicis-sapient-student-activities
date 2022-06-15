@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script>
+            window.onload = function() {
+                let table = document.getElementById("checkers");
+                let white = true;
+                for(let i=0; i<8; i++){
+                    let row = table.insertRow(i);
+                    white = !white;
+                    for(let j=0; j<8; j++){
+                        let square = row.insertCell(j);
+                        if(white){
+                            square.style.width = "50px";
+                            square.style.height = "50px";
+                            square.style.backgroundColor = "white";
+                        }
+                        else{
+                            square.style.width = "50px";
+                            square.style.height = "50px";
+                            square.style.backgroundColor = "black";
+                        }
+                        white = !white;
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <table id="checkers">
+
+        </table>
+    </body>
+</html>
